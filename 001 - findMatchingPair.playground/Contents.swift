@@ -14,7 +14,7 @@ import XCTest
 
 */
 
-// O(n^2)
+// Time complexity: O(n^2)
 func findMatchingPairInUnorderedCollectionUsingQuadraticSearch(_ collection: [Int], targetSum: Int) -> [Int]? {
     guard collection.count >= 2 else {
         return nil
@@ -34,8 +34,8 @@ func findMatchingPairInUnorderedCollectionUsingQuadraticSearch(_ collection: [In
     return nil
 }
 
-// O(n)
-// Hash tables search and insertion is O(1)
+// Time complexity: O(n)
+// Hash tables search and insertion have a time complexity of O(1)
 func findMatchingPairInUnorderedCollectionUsingHashTable(_ collection: [Int], targetSum: Int) -> [Int]? {
     guard collection.count >= 2 else {
         return nil
@@ -55,7 +55,7 @@ func findMatchingPairInUnorderedCollectionUsingHashTable(_ collection: [Int], ta
     return nil
 }
 
-// O(n log(n))
+// Time complexity: O(n log(n))
 func findMatchingPairInOrderedCollectionUsingBinarySearch(_ collection: [Int], targetSum: Int) -> [Int]? {
     guard collection.count >= 2, collection[0] < targetSum else {
         return nil
@@ -73,7 +73,7 @@ func findMatchingPairInOrderedCollectionUsingBinarySearch(_ collection: [Int], t
     return nil
 }
 
-// O(log(n))
+// Time complexity: O(log(n))
 func binarySearch<T: Comparable>(_ collection: [T], value: T, range: Range<Int>) -> Int? {
     guard range.lowerBound < range.upperBound else {
         return nil
@@ -92,7 +92,7 @@ func binarySearch<T: Comparable>(_ collection: [T], value: T, range: Range<Int>)
     }
 }
 
-// O(n)
+// Time complexity: O(n)
 func findMatchingPairInOrderedCollectionUsingLinearSearch(_ collection: [Int], targetSum: Int) -> [Int]? {
     guard collection.count >= 2, collection[0] < targetSum else {
         return nil
