@@ -13,15 +13,15 @@ Examples:
 - [1, 3, 5, 8] with Sum = 8 -> [3, 5]
 - [1, 3, 4, 5, 7, 8] with Sum = 12 -> [5, 7]
 
-## Challenge 2: Convert matrix of integers to a string with the entries of that matrix appended in clockwise order.
+## Challenge 2: Convert matrix of integers to a string in clockwise order.
 
 Write a function that, given a matrix of integers, builds a string with the entries of that matrix appended in clockwise order. Challenge sources: [github](https://github.com/DauntlessDash/ClockwiseBuildStringFromMatrix) and [glassdoor](https://www.glassdoor.com/Interview/-Questions-1-You-have-been-given-2-special-extremely-rugged-Xboxes-You-are-in-an-office-building-that-is-120-storie-QTN_851085.htm).
 
 For instance, the 3x4 matrix below:
-
+```
 7, 2, 8, 1
 6, 7, 4, 14
 3, 6, 0, 5
-
+```
 would make the string `"7,2,8,1,14,5,0,6,3,6,7,4"`, 
 from the matrix array: `[7, 2, 8, 1, 6, 7, 4, 14, 3, 6, 0, 5]`
