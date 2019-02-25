@@ -16,7 +16,9 @@ import XCTest
  - numRows: Int
  - numColumns: Int
  
- Source: https://www.glassdoor.com/Interview/-Questions-1-You-have-been-given-2-special-extremely-rugged-Xboxes-You-are-in-an-office-building-that-is-120-storie-QTN_851085.htm
+ Sources:
+ - GitHub: https://github.com/DauntlessDash/ClockwiseBuildStringFromMatrix
+ - Glassdoor: https://www.glassdoor.com/Interview/-Questions-1-You-have-been-given-2-special-extremely-rugged-Xboxes-You-are-in-an-office-building-that-is-120-storie-QTN_851085.htm
  
  */
 
