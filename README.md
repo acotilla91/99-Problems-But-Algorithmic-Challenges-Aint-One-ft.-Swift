@@ -1,7 +1,7 @@
 
 # 99 Problems But Algorithmic Challenges Ain't One [ft. Swift]
 
-Compilation of algorithmic challenges from different sources solved in Swift 4.2+. Each challenge is contained on its own playground.
+Compilation of algorithmic challenges from different sources solved in Swift. Each challenge is contained in its own playground.
 
 ## Challenge 1: Find matching pair that's equal to a sum
 
