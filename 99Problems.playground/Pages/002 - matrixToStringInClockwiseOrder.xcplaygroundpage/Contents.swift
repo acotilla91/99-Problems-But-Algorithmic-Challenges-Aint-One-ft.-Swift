@@ -123,3 +123,6 @@ XCTAssertEqual("7,2,8,1,14,5,0,6,3,6,7,4", _3x4MatrixStringClockwised)
 let _4x4Matrix1DArray = [7, 2, 8, 1, 6, 7, 4, 14, 3, 6, 0, 5, 11, 4, 7, 3]
 let _4x4MatrixStringClockwised = buildStringFromMatrix(array: _4x4Matrix1DArray, numberOfRows: 4, numberOfColumns: 4)
 XCTAssertEqual("7,2,8,1,14,5,3,7,4,11,3,6,7,4,0,6", _4x4MatrixStringClockwised)
+
+print("[\(#file)]: All tests completed successfully!")
+

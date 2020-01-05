@@ -123,3 +123,6 @@ XCTAssertEqual(binarySearch([1, 3, 5, 8], value: 8, range: 0 ..< 4), 3)
 XCTAssertEqual(findMatchingPairInOrderedCollectionUsingBinarySearch([1, 3, 4, 5, 7, 8], targetSum: 7), [3, 4])
 XCTAssertEqual(findMatchingPairInOrderedCollectionUsingLinearSearch([1, 3, 4, 5, 7, 8], targetSum: 13), [5, 8])
 XCTAssertEqual(findMatchingPairInUnorderedCollectionUsingHashTable([1, 3, 4, 5, 7, 8], targetSum: 12), [5, 7])
+
+print("[\(#file)]: All tests completed successfully!")
+
