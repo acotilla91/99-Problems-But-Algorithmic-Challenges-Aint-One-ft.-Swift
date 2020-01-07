@@ -4,5 +4,6 @@
         <page name='001 - findMatchingPair'/>
         <page name='002 - matrixToStringInClockwiseOrder'/>
         <page name='003 - reverseLettersByWord'/>
+        <page name='004 - concurrencyWithOrderedOutput'/>
     </pages>
 </playground>
