@@ -39,7 +39,7 @@ in: ["p", "e", "r", "f", "e", "c", "t", " ", "m", "a", "k", "e", "s", " ", "p", 
 out: ["p", "r", "a", "c", "t", "i", "c", "e", " ", "m", "a", "k", "e", "s", " ", "p", "e", "r", "f", "e", "c", "t"]
 ```
 
-## Challenge 4: Perform time-consumig calculations concurrently using Cocoa concurrency API's.
+## Challenge 4: Perform time-consumig calculations concurrently, maintaining input order.
 
 Having the functions:
 
@@ -57,5 +57,5 @@ func ArrayCalculation(_ a : [Int]) -> [Int] {
 }
 ```
 
-Create an optimized version of `ArrayCalculation(_:)` with code that performs the calculation method over the input array concurrently using Cocoa concurrency API's: Grand Central Dispatch, NSOperationQueue, POSIX pthread, etc.
+Create an optimized version of `ArrayCalculation(_:)` with code that performs the calculation method over the input array concurrently using Cocoa concurrency APIs: Grand Central Dispatch, NSOperationQueue, POSIX pthread, etc.
 The resulting array must maintain the same order as the input array.

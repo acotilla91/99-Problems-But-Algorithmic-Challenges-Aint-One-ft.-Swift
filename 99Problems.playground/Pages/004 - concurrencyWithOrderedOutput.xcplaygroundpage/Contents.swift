@@ -5,7 +5,7 @@ import XCTest
  
  Without modifying the function `PerformSlowCalculation(_:)`, create an optimized version of
  `ArrayCalculation(_:)` with code that performs the calculation method over the input array
- concurrently using Cocoa concurrency API's: Grand Central Dispatch, NSOperationQueue,
+ concurrently using Cocoa concurrency APIs: Grand Central Dispatch, NSOperationQueue,
  POSIX pthread, etc.
  The resulting array must maintain the same order as the input array.
  
