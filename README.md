@@ -38,3 +38,24 @@ Example:
 in: ["p", "e", "r", "f", "e", "c", "t", " ", "m", "a", "k", "e", "s", " ", "p", "r", "a", "c", "t", "i", "c", "e"]
 out: ["p", "r", "a", "c", "t", "i", "c", "e", " ", "m", "a", "k", "e", "s", " ", "p", "e", "r", "f", "e", "c", "t"]
 ```
+
+## Challenge 4: Perform time-consumig calculations concurrently using Cocoa concurrency API's.
+
+Having the functions:
+
+```
+func PerformSlowCalculation(_ i : Int) -> Int {
+    let timesTwo = i * 2
+    let pause = arc4random_uniform(1) + 2
+    sleep(pause)
+    return timesTwo
+}
+
+func ArrayCalculation(_ a : [Int]) -> [Int] {
+    let values = a.map { PerformSlowCalculation($0) }
+    return values
+}
+```
+
+Create an optimized version of `ArrayCalculation(_:)` with code that performs the calculation method over the input array concurrently using Cocoa concurrency API's: Grand Central Dispatch, NSOperationQueue, POSIX pthread, etc.
+The resulting array must maintain the same order as the input array.
